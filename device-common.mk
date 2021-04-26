@@ -92,6 +92,27 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
+# BSP
+PRODUCT_PACKAGES += \
+    hwcomposer.exynos5 \
+    gralloc.exynos5 \
+    memtrack.exynos5 \
+    libcsc \
+    libexynosdisplay \
+    libexynosgscaler \
+    libExynosHWCService \
+    libexynosscaler \
+    libexynosutils \
+    libexynosv4l2 \
+    libfimg \
+    libhdmi \
+    libhwcutils \
+    libhwjpeg \
+    libion_exynos \
+    libmpp \
+    libstagefrighthw \
+    libvirtualdisplay
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0-helper \
@@ -295,3 +316,8 @@ PRODUCT_PACKAGES += \
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal7870-common/universal7870-common-vendor.mk)
+
+# Call empty .mk files in the BSP sources as an existence check for them
+$(call inherit-product, hardware/samsung_slsi/exynos/empty.mk)
+$(call inherit-product, hardware/samsung_slsi/exynos5/empty.mk)
+$(call inherit-product, hardware/samsung_slsi/exynos7870/empty.mk)

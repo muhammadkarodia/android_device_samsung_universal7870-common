@@ -66,42 +66,8 @@ vendor/lib/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_mali.so
 
 # HWC
-vendor/bin/hw/android.hardware.graphics.composer@2.2-service
-vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.exynos5.so
-vendor/lib/hw/hwcomposer.exynos5.so
-vendor/lib/libexynosdisplay.so
-vendor/lib/libexynosgscaler.so
-vendor/lib/libExynosHWCService.so
-vendor/lib/libexynosscaler.so
-vendor/lib/libexynosutils.so
-vendor/lib/libexynosv4l2.so
-vendor/lib/libGrallocWrapper.so
-vendor/lib/libhdmi.so
-vendor/lib/libhwc2on1adapter.so
-vendor/lib/libhwc2onfbadapter.so
-vendor/lib/libhwcutils.so
-vendor/lib/libion_exynos.so
-vendor/lib/libmpp.so
 vendor/lib/libstainkiller.so
-vendor/lib/libvirtualdisplay.so
-vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.exynos5.so
-vendor/lib64/hw/hwcomposer.exynos5.so
-vendor/lib64/libexynosdisplay.so
-vendor/lib64/libexynosgscaler.so
-vendor/lib64/libExynosHWCService.so
-vendor/lib64/libexynosscaler.so
-vendor/lib64/libexynosutils.so
-vendor/lib64/libexynosv4l2.so
 vendor/lib64/libGrallocWrapper.so
-vendor/lib64/libhdmi.so
-vendor/lib64/libhwc2on1adapter.so
-vendor/lib64/libhwc2onfbadapter.so
-vendor/lib64/libhwcutils.so
-vendor/lib64/libion_exynos.so
-vendor/lib64/libmpp.so
-vendor/lib64/libvirtualdisplay.so
 
 # mcRegistry
 vendor/app/mcRegistry/00060308060501020000000000000000.tlbin
@@ -128,18 +94,14 @@ vendor/lib/libMcRegistry.so
 
 # Memtrack
 vendor/bin/hw/android.hardware.memtrack@1.0-service
-vendor/lib/hw/memtrack.exynos5.so
-vendor/lib64/hw/memtrack.exynos5.so
 
 # Media
 vendor/firmware/mfc_fw.bin
 
 # Misc
 vendor/bin/sswap
-vendor/lib/libcsc.so
 vendor/lib/libsecnativefeature.so
 vendor/lib/libuniplugin.so
-vendor/lib64/libcsc.so
 vendor/lib64/libsecnativefeature.so
 vendor/lib64/libuniplugin.so
 
