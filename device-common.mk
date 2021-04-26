@@ -299,10 +299,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.vendor_security_patch=2019-11-01
 
-# VNDK
-PRODUCT_PACKAGES += \
-    libgui_vendor
-
 # Wifi
 PRODUCT_PACKAGES += \
     macloader
@@ -312,7 +308,7 @@ PRODUCT_PACKAGES += \
     libnl
 
 # Properties
--include $(LOCAL_PATH)/vendor_prop.mk
+-include $(LOCAL_PATH)/system_prop.mk
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal7870-common/universal7870-common-vendor.mk)

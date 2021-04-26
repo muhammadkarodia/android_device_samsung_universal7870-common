@@ -69,10 +69,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnCdmaDevice=0 \
     ro.vendor.multisim.simslotcount=2
 
-#Treble
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.media.treble_omx=true
-
 # sdcardfs
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.sdcardfs=true
