@@ -71,4 +71,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
-    net.tethering.noprovisioning=true
+    net.tethering.noprovisioning=true \
+    wifi.direct.interface=p2p-dev-wlan0 \
+    wlan.wfd.hdcp=disable
