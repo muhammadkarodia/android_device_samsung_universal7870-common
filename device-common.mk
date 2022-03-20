@@ -289,6 +289,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl
 
+# KillCamera
+PRODUCT_PACKAGES += \
+    KillCamera
+
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
