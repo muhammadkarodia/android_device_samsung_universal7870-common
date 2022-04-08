@@ -352,6 +352,10 @@
              2 - MODE_NIGHT_YES
     -->
     <integer name="config_defaultNightMode">1</integer>
+    
+    <!-- Control whether Night display is available. This should only be enabled on devices
+    that have a HWC implementation that can apply the matrix passed to setColorTransform
+    without impacting power, performance, and app compatibility (e.g. protected content). -->
     <bool name="config_nightDisplayAvailable">true</bool>
     <!-- Default mode to control how Night display is automatically activated.
          One of the following values (see ColorDisplayManager.java):
@@ -359,7 +363,12 @@
              1 - AUTO_MODE_CUSTOM_TIME
              2 - AUTO_MODE_TWILIGHT
     -->
+    
+
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently in
+    hardware.-->
     <bool name="config_setColorTransformAccelerated">true</bool>
+    
     <integer name="config_defaultNightDisplayAutoMode">0</integer>
     
 </resources>
