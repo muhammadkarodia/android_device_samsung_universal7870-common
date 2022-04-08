@@ -289,10 +289,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl
 
-# Custom prebuilt apps
+# KillCamera
 PRODUCT_PACKAGES += \
-    KillCamera \
-    hKtweaks
+    KillCamera
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
