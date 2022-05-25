@@ -98,7 +98,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.5-service \
     libion_exynos \
-    Snap
+    GrapheneCamera
 
 # Camera configurations
 PRODUCT_COPY_FILES += \
@@ -284,10 +284,6 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
-
-# KillCamera
-PRODUCT_PACKAGES += \
-    KillCamera
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk

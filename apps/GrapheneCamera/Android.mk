@@ -4,11 +4,11 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_MODULE := KillCamera
+LOCAL_MODULE := GrapheneCamera
 
 LOCAL_CERTIFICATE := platform
 
-LOCAL_SRC_FILES := KillCamera.apk
+LOCAL_SRC_FILES := GrapheneCamera.apk
 
 LOCAL_MODULE_CLASS := APPS
 
