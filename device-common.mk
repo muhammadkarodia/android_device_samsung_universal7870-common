@@ -98,7 +98,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.5-service \
     libion_exynos \
-    GrapheneCamera
+    GrapheneCamera \
+    Snap
 
 # Camera configurations
 PRODUCT_COPY_FILES += \
