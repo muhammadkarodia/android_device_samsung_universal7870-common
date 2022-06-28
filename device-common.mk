@@ -289,5 +289,9 @@ PRODUCT_PACKAGES += \
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# Fdroid
+PRODUCT_PACKAGES += \
+    F-DroidPrivilegedExtension
+
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal7870-common/universal7870-common-vendor.mk)
