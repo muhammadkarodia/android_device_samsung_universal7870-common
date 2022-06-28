@@ -377,5 +377,9 @@ PRODUCT_PACKAGES += \
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
+# Fdroid
+PRODUCT_PACKAGES += \
+    F-DroidPrivilegedExtension
+
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal7870-common/universal7870-common-vendor.mk)
