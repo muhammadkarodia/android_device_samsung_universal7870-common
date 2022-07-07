@@ -97,9 +97,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0-helper \
     android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.5-service \
-    libion_exynos \
-    GrapheneCamera \
-    Snap
+    libion_exynos
 
 # Camera configurations
 PRODUCT_COPY_FILES += \
@@ -130,6 +128,12 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
+# Fdroid
+PRODUCT_PACKAGES += \
+    Fdroid \
+    F-DroidPrivilegedExtension
+
+
 # Flat device tree for boot image
 PRODUCT_HOST_PACKAGES += \
     dtbhtoolExynos
@@ -137,6 +141,16 @@ PRODUCT_HOST_PACKAGES += \
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
+    
+# FLOSS
+PRODUCT_PACKAGES += \
+    GrapheneCamera \
+    SimpleSMS \
+    SimpleNotes \
+    SimpleGallery \
+    SimpleCalendar \
+    K9mail \
+    DuckDuckGo
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -288,10 +302,6 @@ PRODUCT_PACKAGES += \
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
-
-# Fdroid
-PRODUCT_PACKAGES += \
-    F-DroidPrivilegedExtension
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal7870-common/universal7870-common-vendor.mk)
