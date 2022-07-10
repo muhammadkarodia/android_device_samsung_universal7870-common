@@ -152,7 +152,7 @@ PRODUCT_PACKAGES += \
     K9mail \
     DuckDuckGo \
     Files \
-    Dialer
+    SimpleDialer
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
