@@ -145,14 +145,12 @@ PRODUCT_PACKAGES += \
 # FLOSS
 PRODUCT_PACKAGES += \
     GrapheneCamera \
-    SimpleSMS \
     SimpleNotes \
     SimpleGallery \
     SimpleCalendar \
     K9mail \
     DuckDuckGo \
-    Files \
-    SimpleDialer
+    Files
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
