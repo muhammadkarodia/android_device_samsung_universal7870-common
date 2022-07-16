@@ -187,7 +187,7 @@ TARGET_LD_SHIM_LIBS += \
     /system/bin/mediaserver|/system/lib/libstagefright_shim.so
 
 # Build fingerprint
-BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:13/TPB4.220624.005/8812298:user/release-keys"
 
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI := true
