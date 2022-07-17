@@ -149,8 +149,8 @@ PRODUCT_PACKAGES += \
     SimpleGallery \
     SimpleCalendar \
     K9mail \
-    DuckDuckGo \
-    Files
+    DuckDuckGo
+
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
