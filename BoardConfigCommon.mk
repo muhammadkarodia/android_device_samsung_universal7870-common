@@ -187,7 +187,7 @@ TARGET_LD_SHIM_LIBS += \
     /system/bin/mediaserver|/system/lib/libstagefright_shim.so
 
 # Build fingerprint
-BUILD_FINGERPRINT := "google/sunfish/sunfish:13/T2B3.230109.004/9554463:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin_beta/redfin:14/UPB3.230519.014/10284690:user/release-keys"
 
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI := true
