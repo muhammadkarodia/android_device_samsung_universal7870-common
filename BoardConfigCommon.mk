@@ -178,8 +178,5 @@ TARGET_LD_SHIM_LIBS += \
     /vendor/lib64/libsec-ril.so|/vendor/lib64/libcutils_shim.so \
     /vendor/lib64/libsec-ril-dsds.so|/vendor/lib64/libcutils_shim.so
 
-# Build fingerprint
-BUILD_FINGERPRINT := "google/coral/coral:13/TPB4.220624.005/8812298:user/release-keys"
-
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI := true
