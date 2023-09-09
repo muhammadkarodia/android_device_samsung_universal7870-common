@@ -95,3 +95,9 @@ allow init proc_sec:file { rw_file_perms setattr };
 allow init socket_device:sock_file { read write getattr setattr create unlink };
 
 # allow init hal_drm_hwservice:hwservice_manager add;
+
+# ZRAM permissions
+allow init sysfs_zram:dir search;
+allow init sysfs_zram:file { read open getattr };
+allow shell sysfs_zram:dir { search };
+allow shell sysfs_zram:file { read open getattr};

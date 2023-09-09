@@ -2,3 +2,7 @@ allow system_app sysfs_mdnie:{ file lnk_file } rw_file_perms;
 allow system_app sysfs_mdnie:dir search;
 allow system_app sysfs_graphics:dir search;
 allow system_app wificond:binder call;
+
+# ZRAM permissions
+allow system_app sysfs_zram:file { read open getattr};
+allow system_app sysfs_zram:dir { search };
