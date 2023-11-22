@@ -128,12 +128,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
-# Fdroid
-PRODUCT_PACKAGES += \
-    Fdroid \
-    F-DroidPrivilegedExtension
-
-
 # Flat device tree for boot image
 PRODUCT_HOST_PACKAGES += \
     dtbhtoolExynos
@@ -141,16 +135,6 @@ PRODUCT_HOST_PACKAGES += \
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
-    
-# FLOSS
-PRODUCT_PACKAGES += \
-    GrapheneCamera \
-    SimpleNotes \
-    SimpleGallery \
-    SimpleCalendar \
-    K9mail \
-    DuckDuckGo
-
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -237,10 +221,6 @@ PRODUCT_PACKAGES += \
     init.vendor.rilcommon.rc \
     wifi.rc \
     ueventd.rc
-
-# Recorder
-PRODUCT_PACKAGES += \
-    Recorder
 
 # Seccomp_policy
 PRODUCT_COPY_FILES += \
